@@ -5,7 +5,7 @@ import { useTheme } from 'react-native-paper';
 const StyledText = ({ children, style, size, weight, ...props }) => {
   const theme = useTheme();
   const fontSize = theme.fontSizes[size] || theme.fontSizes.normal;
-  const fontWeight = theme.fontWeight[weight] || theme.fontWeight.regular
+  const fontWeight = theme.fontWeight[weight] || theme.fontWeight.medium
   
   return (
     <Text style={[{ fontSize, fontWeight}, style]} {...props}>

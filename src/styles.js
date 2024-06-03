@@ -17,9 +17,12 @@ export default styles = StyleSheet.create({
       height: 250,
       resizeMode: 'contain',
     },
+    textLogin: {
+        color: '#1B5400'  
+    },
     formInput: {
         borderColor: "#1B5400",
-        borderWidth: 1,
+        borderWidth: 2,
         borderRadius: 10,
         fontSize: 14,
         width: 300,

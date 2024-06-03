@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Image, TouchableOpacity } from "react-native"
 import Login from "./Login";
-import styles from "../styles"
+import styles from "../src/styles"
 
 export default props => {
     const [inicio, mostrarInicio] = React.useState(true)

@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Image, TouchableOpacity } from "react-native"
 import Login from "./Login";
+import styles from "../styles"
 
 export default props => {
     const [inicio, mostrarInicio] = React.useState(true)
@@ -20,17 +21,3 @@ export default props => {
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: '#FDE6DB'
-    },
-    image: {
-      width: 300, 
-      height: 300,
-      resizeMode: 'contain',
-    },
-});

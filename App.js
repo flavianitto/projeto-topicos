@@ -19,10 +19,10 @@ const theme = {
   },
   fontWeight: {
     bold: 'bold',
-    regular: 'regular'
+    medium: 'medium'
   },
   fontSizes: {
-    normal: 14,
+    normal: 16,
     large: 32,
   },
 };

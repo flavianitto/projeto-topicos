@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { Provider as PaperProvider, DefaultTheme } from 'react-native-paper';
-
+import { Router } from 'expo-router'
 import Inicial from './Screens/Inicial';
 
 // const Stack = createNativeStackNavigator()
